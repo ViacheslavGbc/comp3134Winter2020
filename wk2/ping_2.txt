@@ -1,0 +1,16 @@
+
+************** 1 **************
+$ ping 159.203.8.166 -w 7
+
+Pinging 159.203.8.166 with 32 bytes of data:
+Reply from 159.203.8.166: bytes=32 time=5ms TTL=58
+Reply from 159.203.8.166: bytes=32 time=5ms TTL=58
+Reply from 159.203.8.166: bytes=32 time=4ms TTL=58
+Request timed out.
+
+Ping statistics for 159.203.8.166:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 4ms, Maximum = 5ms, Average = 4ms
+
+

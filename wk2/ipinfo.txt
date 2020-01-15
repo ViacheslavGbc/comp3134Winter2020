@@ -1,0 +1,50 @@
+
+********* 1 *********
+
+Checking Domain Name
+Domain Name: 1562.kharkov.ua
+Top Level Domain: UA (Ukraine)
+DNS Lookup
+IP Address: 193.23.53.71
+Geolocation: UA (Ukraine), N/A, N/A, N/A N/A - Google Maps
+Reverse DNS: 1562.kharkov.ua
+
+********* 2 *********
+
+Checking Domain Name
+Domain Name: georgebrown.ca
+Top Level Domain: CA (Canada)
+DNS Lookup
+IP Address: 198.96.86.202
+Geolocation: CA (Canada), ON, Ontario, M5T Toronto - Google Maps
+Reverse DNS: interviewfail.ca
+
+********* 3 *********
+
+Checking Domain Name
+Domain Name: github.com
+Top Level Domain: COM (Commercial TLD)
+DNS Lookup
+IP Address: 192.30.253.112
+Geolocation: US (United States), CA, California, 94107 San Francisco - Google Maps
+Reverse DNS: lb-192-30-253-112-iad.github.com
+
+********* 4 *********
+
+Checking Domain Name
+Domain Name: triplebyte.com
+Top Level Domain: COM (Commercial TLD)
+DNS Lookup
+IP Address: 34.238.36.128
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn - Google Maps
+Reverse DNS: ec2-34-238-36-128.compute-1.amazonaws.com
+
+********* 5 *********
+
+Checking Domain Name
+Domain Name: bb-gbc.blackboard.com
+Top Level Domain: COM (Commercial TLD)
+DNS Lookup
+IP Address: 69.196.236.11
+Geolocation: US (United States), DC, District of Columbia, 20036 Washington - Google Maps
+Reverse DNS: bb-gbc.blackboard.com

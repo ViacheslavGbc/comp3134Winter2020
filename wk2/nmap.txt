@@ -1,0 +1,69 @@
+************** 1 **************
+root@CsDroplet:~# nmap www.lowestrates.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 20:31 UTC
+Nmap scan report for www.lowestrates.ca (172.105.4.169)
+Host is up (0.0011s latency).
+rDNS record for 172.105.4.169: li1958-169.members.linode.com
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+3306/tcp open  mysql
+
+Nmap done: 1 IP address (1 host up) scanned in 1.63 seconds
+
+
+************** 2 **************
+
+
+root@CsDroplet:~# nmap -p 21 youtube.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 20:34 UTC
+Nmap scan report for youtube.com (172.217.1.14)
+Host is up (0.0019s latency).
+Other addresses for youtube.com (not scanned): 2607:f8b0:400b:80f::200e
+rDNS record for 172.217.1.14: iad23s25-in-f14.1e100.net
+
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.64 seconds
+
+************** 3 **************
+
+root@CsDroplet:~# nmap -p 21-443 w3schools.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 20:36 UTC
+Nmap scan report for w3schools.com (66.29.212.110)
+Host is up (0.023s latency).
+rDNS record for 66.29.212.110: mail.medlinkrecruiting.com
+Not shown: 413 filtered ports
+PORT    STATE  SERVICE
+23/tcp  closed telnet
+42/tcp  closed nameserver
+80/tcp  open   http
+111/tcp closed rpcbind
+113/tcp closed ident
+135/tcp closed msrpc
+137/tcp closed netbios-ns
+138/tcp closed netbios-dgm
+139/tcp closed netbios-ssn
+443/tcp open   https
+
+Nmap done: 1 IP address (1 host up) scanned in 26.96 seconds
+
+
+************** 4 **************
+
+root@CsDroplet:~# nmap -F www.onlia.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 20:38 UTC
+Nmap scan report for www.onlia.ca (52.139.19.55)
+Host is up (0.028s latency).
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 3.78 seconds
