@@ -1,0 +1,20 @@
+root@CsDroplet:~# tcpdump -i eth0 tcp
+
+21:02:42.215420 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 1806728:1807084, ack 1081, win 457, length 356
+21:02:42.215451 IP 198.96.85.21.60422 > CsDroplet.ssh: Flags [.], ack 1801928, win 509, length 0
+21:02:42.215582 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 1807084:1807336, ack 1081, win 457, length 252
+21:02:42.215700 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 1807336:1807492, ack 1081, win 457, length 156
+21:02:42.215774 IP 198.96.85.21.60422 > CsDroplet.ssh: Flags [.], ack 1802240, win 508, length 0
+21:02:42.215879 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 1807492:1807744, ack 1081, win 457, length 252
+21:02:42.216000 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 1807744:1807900, ack 1081, win 457, length 156
+21:02:42.216136 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 1807900:1808056, ack 1081, win 457, length 156
+21:02:42.216247 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 1808056:1808212, ack 1081, win 457, length 156
+21:02:42.216355 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 1808212:1808368, ack 1081, win 457, length 156
+21:02:42.216498 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 1808368:1808524, ack 1081, win 457, length 156
+21:02:42.216545 IP 198.96.85.21.60422 > CsDroplet.ssh: Flags [.], ack 1803040, win 512, length 0
+21:02:42.216561 IP 198.96.85.21.60422 > CsDroplet.ssh: Flags [.], ack 1803648, win 510, length 0
+^C
+13247 packets captured
+13483 packets received by filter
+233 packets dropped by kernel
+root@CsDroplet:~#

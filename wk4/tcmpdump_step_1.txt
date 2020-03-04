@@ -1,0 +1,24 @@
+root@CsDroplet:~# tcpdump -i eth0
+..........
+20:44:31.298092 IP 198.96.85.21.60422 > CsDroplet.ssh: Flags [.], ack 7211296, win 512, length 0
+20:44:31.298233 IP 198.96.85.21.60422 > CsDroplet.ssh: Flags [.], ack 7211608, win 511, length 0
+20:44:31.298341 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 7217992:7218348, ack 4285, win 315, length 356
+20:44:31.298450 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 7218348:7218480, ack 4285, win 315, length 132
+20:44:31.298538 IP 198.96.85.21.60422 > CsDroplet.ssh: Flags [.], ack 7211920, win 510, length 0
+20:44:31.298689 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 7218480:7218636, ack 4285, win 315, length 156
+20:44:31.298783 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 7218636:7218888, ack 4285, win 315, length 252
+20:44:31.298959 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 7218888:7219164, ack 4285, win 315, length 276
+20:44:31.299077 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 7219164:7219320, ack 4285, win 315, length 156
+20:44:31.299333 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 7219320:7219476, ack 4285, win 315, length 156
+20:44:31.299491 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 7219476:7219632, ack 4285, win 315, length 156
+20:44:31.299646 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 7219632:7219788, ack 4285, win 315, length 156
+20:44:31.299803 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 7219788:7219944, ack 4285, win 315, length 156
+20:44:31.299985 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 7219944:7220100, ack 4285, win 315, length 156
+20:44:31.300112 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 7220100:7220256, ack 4285, win 315, length 156
+20:44:31.300227 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 7220256:7220412, ack 4285, win 315, length 156
+20:44:31.300299 IP 198.96.85.21.60422 > CsDroplet.ssh: Flags [P.], seq 4285:4321, ack 7212076, win 509, length 36
+^C
+52681 packets captured
+53430 packets received by filter
+749 packets dropped by kernel
+

@@ -1,0 +1,14 @@
+root@CsDroplet:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+20:54:50.882650 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 4157003680:4157003724, ack 4113880628, win 457, length 44
+20:54:50.882769 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 44:152, ack 1, win 457, length 108
+20:54:50.882847 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 152:188, ack 1, win 457, length 36
+20:54:50.887366 IP 198.96.85.21.60422 > CsDroplet.ssh: Flags [.], ack 44, win 511, length 0
+20:54:50.887395 IP 198.96.85.21.60422 > CsDroplet.ssh: Flags [.], ack 188, win 511, length 0
+20:54:52.188877 IP dude.mobilewave.net.34408 > CsDroplet.snmp:  C="poohbear13" GetNextRequest(30)  25.2.3.1.2
+20:54:52.188998 IP dude.mobilewave.net.34408 > CsDroplet.snmp:  C="poohbear13" GetNextRequest(30)  25.2.3.1.1
+20:54:55.195890 IP dude.mobilewave.net.34408 > CsDroplet.snmp:  C="poohbear13" GetNextRequest(30)  25.2.3.1.1
+20:54:55.196023 IP dude.mobilewave.net.34408 > CsDroplet.snmp:  C="poohbear13" GetNextRequest(30)  25.2.3.1.2
+20:54:58.187198 IP dude.mobilewave.net.34408 > CsDroplet.snmp:  C="poohbear13" GetNextRequest(30)  25.2.3.1.2
+20:54:58.187268 IP dude.mobilewave.net.34408 > CsDroplet.snmp:  C="poohbear13" GetNextRequest(30)  25.2.3.1.1
+root@CsDroplet:~#

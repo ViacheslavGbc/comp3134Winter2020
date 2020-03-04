@@ -1,0 +1,11 @@
+root@CsDroplet:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+20:49:29.091625 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 4144927564:4144927672, ack 4113873348, win 315, length 108
+20:49:29.091732 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 108:144, ack 1, win 315, length 36
+20:49:29.091852 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 144:252, ack 1, win 315, length 108
+20:49:29.091939 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 252:288, ack 1, win 315, length 36
+20:49:29.094202 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 288:452, ack 1, win 315, length 164
+5 packets captured
+17 packets received by filter
+5 packets dropped by kernel

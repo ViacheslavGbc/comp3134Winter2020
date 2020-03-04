@@ -1,0 +1,22 @@
+root@CsDroplet:~# tcpdump -XX -i eth0
+
+        0x0120:  031f 085f 9f8a afa3 9b1e 6174 57ab 5eca  ..._......atW.^.
+        0x0130:  d1bd a861 a5d5 94e6 fe40 93ce 3963 896e  ...a.....@..9c.n
+        0x0140:  d471 8aa8 15d2 3e28 49ec d8be 780c 945e  .q....>(I...x..^
+        0x0150:  a5e0 3b83 6995 7536 42a3 e333 41b4 8dff  ..;.i.u6B..3A...
+        0x0160:  99dc a88b cf3b 93e5 c4e1 09a8 6ef1 78fb  .....;......n.x.
+        0x0170:  9415 6011 e851 2247 b0df 7130 349c 8deb  ..`..Q"G..q04...
+        0x0180:  cbcb 5db3 eace 2f0c a1a5 47be 3a5c 74a6  ..].../...G.:\t.
+        0x0190:  c9e1 da8f 3571 1cf5 bb9d                 ....5q....
+20:53:09.507884 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 1345488:1345836, ack 577, win 457, length 348
+        0x0000:  fe00 0000 0101 7a64 2c6b 62e8 0800 4510  ......zd,kb...E.
+        0x0010:  0184 2239 4000 4006 5344 9fcb 08a6 c660  .."9@.@.SD.....`
+        0x0020:  5515 0016 ec06 f7c6 8a7c f534 d4d0 5018  U........|.4..P.
+        0x0030:  01c9 c55d 0000 3df9 8daa e8e4 8820 cde5  ...]..=.........
+        0x0040:  9180 650c 44d5 ef25 18e0 c24c 4047 c64c  ..e.D..%...L@G.L
+
+510 packets captured
+4427 packets received by filter
+3909 packets dropped by kernel
+root@CsDroplet:~#
+

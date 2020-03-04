@@ -1,0 +1,36 @@
+root@CsDroplet:~# tcpdump -i eth0 port 22
+
+21:10:20.996205 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 709988:710432, ack 397, win 457, length 444
+21:10:20.996344 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 710432:710588, ack 397, win 457, length 156
+21:10:20.996506 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 710588:710744, ack 397, win 457, length 156
+21:10:20.996622 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 710744:710900, ack 397, win 457, length 156
+21:10:20.996732 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 710900:711056, ack 397, win 457, length 156
+21:10:20.996863 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 711056:711212, ack 397, win 457, length 156
+21:10:20.997124 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 711212:711368, ack 397, win 457, length 156
+21:10:20.997244 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 711368:711524, ack 397, win 457, length 156
+21:10:20.997354 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 711524:711680, ack 397, win 457, length 156
+21:10:20.997461 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 711680:711836, ack 397, win 457, length 156
+21:10:20.997567 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 711836:711992, ack 397, win 457, length 156
+21:10:20.997672 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 711992:712148, ack 397, win 457, length 156
+21:10:20.997778 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 712148:712304, ack 397, win 457, length 156
+21:10:20.997883 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 712304:712460, ack 397, win 457, length 156
+21:10:20.997988 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 712460:712616, ack 397, win 457, length 156
+21:10:20.998095 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 712616:712772, ack 397, win 457, length 156
+21:10:20.998201 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 712772:712928, ack 397, win 457, length 156
+21:10:20.998306 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 712928:713084, ack 397, win 457, length 156
+21:10:20.998411 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 713084:713240, ack 397, win 457, length 156
+21:10:20.998515 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 713240:713396, ack 397, win 457, length 156
+21:10:20.998629 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 713396:713552, ack 397, win 457, length 156
+21:10:20.998778 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 713552:713708, ack 397, win 457, length 156
+21:10:20.999041 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 713708:713864, ack 397, win 457, length 156
+21:10:20.999167 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 713864:714020, ack 397, win 457, length 156
+21:10:20.999276 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 714020:714176, ack 397, win 457, length 156
+21:10:20.999383 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 714176:714332, ack 397, win 457, length 156
+21:10:20.999488 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 714332:714488, ack 397, win 457, length 156
+21:10:20.999593 IP CsDroplet.ssh > 198.96.85.21.60422: Flags [P.], seq 714488:714644, ack 397, win 457, length 156
+21:10:21.035463 IP 198.96.85.21.60422 > CsDroplet.ssh: Flags [P.], seq 397:433, ack 701144, win 510, length 36
+^C
+5275 packets captured
+5293 packets received by filter
+18 packets dropped by kernel
+root@CsDroplet:~#
