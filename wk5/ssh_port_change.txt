@@ -1,0 +1,9 @@
+root@CsDroplet:~# ssh root@@159.203.8.166 -p 2222
+ssh: connect to host 159.203.8.166 port 2222: Connection refused
+
+root@CsDroplet:~# nano /etc/ssh/sshd_config
+root@CsDroplet:~# sudo service ssh force-reload
+root@CsDroplet:~# ssh root@@159.203.8.166 -p 2222
+The authenticity of host '[159.203.8.166]:2222 ([159.203.8.166]:2222)' can't be established.
+ECDSA key fingerprint is SHA256:JIjchooT0EGD8dVLMzyKN5z7yGvHGuWIpDg/YLH20o0.
+Are you sure you want to continue connecting (yes/no)?
