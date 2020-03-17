@@ -1,0 +1,53 @@
+gs [P.], seq 922392:922684, ack 505, win 318, length 292
+05:31:28.990146 IP 174-138-192-64.cpe.distributel.net.57664 > CsDroplet.ssh: Flags [.], ack 872564, win 511, length 0
+05:31:28.990176 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 922684:922856, ack 505, win 318, length 172
+05:31:28.990316 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 922856:923012, ack 505, win 318, length 156
+05:31:28.990458 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 923012:923328, ack 505, win 318, length 316
+05:31:28.991199 IP 174-138-192-64.cpe.distributel.net.57664 > CsDroplet.ssh: Flags [.], ack 873052, win 509, length 0
+05:31:28.991228 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 923328:923500, ack 505, win 318, length 172
+05:31:28.991379 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 923500:923792, ack 505, win 318, length 292
+05:31:28.992151 IP 174-138-192-64.cpe.distributel.net.57664 > CsDroplet.ssh: Flags [.], ack 873516, win 512, length 0
+05:31:28.992176 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 923792:923964, ack 505, win 318, length 172
+05:31:28.992290 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 923964:924256, ack 505, win 318, length 292
+05:31:28.992786 IP 174-138-192-64.cpe.distributel.net.57664 > CsDroplet.ssh: Flags [.], ack 874100, win 510, length 0
+05:31:28.992813 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 924256:924436, ack 505, win 318, length 180
+05:31:28.992948 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 924436:924728, ack 505, win 318, length 292
+05:31:28.993784 IP 174-138-192-64.cpe.distributel.net.57664 > CsDroplet.ssh: Flags [.], ack 874572, win 508, length 0
+05:31:28.993811 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 924728:924900, ack 505, win 318, length 172
+05:31:28.993945 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 924900:925192, ack 505, win 318, length 292
+05:31:28.994781 IP 174-138-192-64.cpe.distributel.net.57664 > CsDroplet.ssh: Flags [.], ack 875044, win 512, length 0
+05:31:28.994809 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 925192:925364, ack 505, win 318, length 172
+05:31:28.994970 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 925364:925520, ack 505, win 318, length 156
+05:31:28.995814 IP 174-138-192-64.cpe.distributel.net.57664 > CsDroplet.ssh: Flags [.], ack 875516, win 511, length 0
+05:31:28.995840 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 925520:925836, ack 505, win 318, length 316
+05:31:28.995983 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 925836:926128, ack 505, win 318, length 292
+05:31:28.996800 IP 174-138-192-64.cpe.distributel.net.57664 > CsDroplet.ssh: Flags [.], ack 875988, win 509, length 0
+05:31:28.996827 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 926128:926308, ack 505, win 318, length 180
+05:31:28.996975 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 926308:926600, ack 505, win 318, length 292
+05:31:28.998037 IP 174-138-192-64.cpe.distributel.net.57664 > CsDroplet.ssh: Flags [.], ack 876460, win 512, length 0
+05:31:28.998063 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 926600:926772, ack 505, win 318, length 172
+05:31:28.998197 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 926772:927064, ack 505, win 318, length 292
+05:31:28.998996 IP 174-138-192-64.cpe.distributel.net.57664 > CsDroplet.ssh: Flags [.], ack 876932, win 511, length 0
+05:31:28.999021 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 927064:927236, ack 505, win 318, length 172
+05:31:28.999156 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 927236:927528, ack 505, win 318, length 292
+05:31:28.999713 IP 174-138-192-64.cpe.distributel.net.57664 > CsDroplet.ssh: Flags [.], ack 877588, win 508, length 0
+05:31:28.999742 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 927528:927700, ack 505, win 318, length 172
+05:31:28.999894 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 927700:927992, ack 505, win 318, length 292
+05:31:28.999998 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 927992:928164, ack 505, win 318, length 172
+05:31:29.000748 IP 174-138-192-64.cpe.distributel.net.57664 > CsDroplet.ssh: Flags [.], ack 878060, win 512, length 0
+05:31:29.000784 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 928164:928336, ack 505, win 318, length 172
+05:31:29.000965 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 928336:928628, ack 505, win 318, length 292
+05:31:29.001667 IP 174-138-192-64.cpe.distributel.net.57664 > CsDroplet.ssh: Flags [.], ack 878524, win 511, length 0
+05:31:29.001696 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 928628:928800, ack 505, win 318, length 172
+05:31:29.001837 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 928800:929092, ack 505, win 318, length 292
+05:31:29.002688 IP 174-138-192-64.cpe.distributel.net.57664 > CsDroplet.ssh: Flags [.], ack 878860, win 509, length 0
+05:31:29.002715 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 929092:929264, ack 505, win 318, length 172
+05:31:29.002849 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 929264:929556, ack 505, win 318, length 292
+05:31:29.003755 IP 174-138-192-64.cpe.distributel.net.57664 > CsDroplet.ssh: Flags [.], ack 879468, win 507, length 0
+05:31:29.003784 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 929556:929728, ack 505, win 318, length 172
+05:31:29.003919 IP CsDroplet.ssh > 174-138-192-64.cpe.distributel.net.57664: Flags [P.], seq 929728:930020, ack 505, win 318, length 292
+^C05:31:29.004650 IP CsDroplet.http > 158.167.168.34.61460: Flags [S.], seq 1155874396, ack 2839267757, win 29200, options [mss 1460], length 0
+
+5947 packets captured
+6117 packets received by filter
+164 packets dropped by kernel
