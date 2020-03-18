@@ -1,0 +1,6 @@
+
+strip_tags() removes the tags altogether. I.e. the user doesn't get 
+	     the same output as typed in. 
+
+htmlspecialchars() will give the user the same output, 
+		   but will make it harmless.

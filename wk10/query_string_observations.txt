@@ -1,0 +1,26 @@
+1) Navigate to the form and type a valid English word. 
+Web app does routing by adding to the initial URL  
+"https://www.dictionary.com" some extra parameters, like 
+"/browse/lysin?s=t" for the word "lysin", for example.
+
+
+2) Navigate to the URL and type an invalid English word after the `/browse/` section of the URL. 
+An extra part like "misspelling?term=wtfit" is added to URL.
+
+
+3) Navigate to the form and type the following text: <script>alert(%27hello%27)</script>
+Result would be something like 
+"https://www.dictionary.com/noresult?term=<script>alert(%27hello%27)<%2Fscript>&s=ts27hello%27)</script>
+Some search results for word "hello" are displayed on the page.
+
+
+4)Navigate to the URL and type the following text: <script>alert(%27hello%27)</script>
+after the `term=` section of the URL.
+
+The result is pretty much exactly like the previous one, just missing some html elements 
+https://www.dictionary.com/noresult?term=<script>alert(%27hello%27)</script>
+even though a pop-up window is expected to appear)
+
+
+
+
