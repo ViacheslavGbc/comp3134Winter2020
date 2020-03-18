@@ -1,0 +1,4 @@
+ The issue: directory named 'hello' is not found on the server.
+
+ This page displays path to the web root of the server and gives info about 
+	php script found in the root and about the requested directories/ files. 

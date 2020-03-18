@@ -1,0 +1,3 @@
+Any valid credentials are not supposed to be in a comment
+but for now it is just covered with php comments "//"
+to make sure they are not displayed in a browser.  

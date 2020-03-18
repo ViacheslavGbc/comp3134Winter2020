@@ -1,0 +1,6 @@
+ The issue: browser displays server directory instead of a web page.
+This is a directory outside the assigned web directory.
+
+ This page displays sensitive info about a directory on the server 
+which is not ment for users to reach. so it allows to traverse server directory tree
+and use info outside the designated public web folder. 

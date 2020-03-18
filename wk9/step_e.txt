@@ -1,0 +1,4 @@
+
+1) Block all the errors being displayed to user
+2) Create a strict array of folders/files available to users and 
+   to not allow users pass any other path, directory or file name as a parameter.

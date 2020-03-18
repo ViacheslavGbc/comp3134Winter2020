@@ -1,0 +1,6 @@
+ The issue: browser displays server directory tree instead of a web page.
+These directories are not ment to be seen by the users.
+
+ This page displays some directory names on the server 
+so using this information a list of directories on the web server 
+can be traversed and sensitive info may be used. 
