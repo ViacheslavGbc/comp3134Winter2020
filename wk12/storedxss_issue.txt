@@ -1,0 +1,2 @@
+
+	location.href returns the entire URL of a page

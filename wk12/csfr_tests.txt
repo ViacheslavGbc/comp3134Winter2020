@@ -1,0 +1,3 @@
+
+As there is no session variable from csfr.html, 
+you can easily see, that form data is forged.

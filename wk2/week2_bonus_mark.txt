@@ -1,0 +1,53 @@
+Technical Terms
+
+TCP
+UDP
+synchronize
+acknowledgement
+finish
+checksum
+source
+destination
+physical
+port
+max size (window size)
+______________________________________________
+
+Scenario
+
+There is an electronic badge that gives out numbers
+	These numbers would change periodically
+	These numbers would be used to log into / enter the following place
+
+		Email
+______________________________________________
+
+Exercise 
+		
+Choose one of these scenario's (places) and describe the procedures using technical terms above
+
+_______________________________________________
+
+
+I try to log into my gmail.com online mailbox. Electronic badge 
+gives out a 10-digit number. A pop-up window or a desktop app 
+asks me to provide credentials and the given number.
+
+If entered number is correct, PC sends TCP synchronisation request 
+to destination mail server's service port. Secure client IMAP SSL protocol 
+is used for this purpose. The port address is 993. 
+
+Remote server responds with Syn/acknowledgement packet. 
+PC responds with own achnoledgement to the destination port address 2096.
+Remote server breaks initial data into packets using TCP 
+and sends them over the Internet at the physical level.
+
+Each packet contains a checksum so local machine can verify 
+that packet arrived successfully and it is intact 
+while TCP reassembles original emails locally. 
+Window size of a packet is set to 16 bits.
+
+At the same time outbound mail messages are being asynchronously sent 
+through a secure client SMTP SSL protocol using port 587. Checksums of the appropriate arriving packets
+are verified by the destination mail server respectively. At the end of a web session local machine breaks connection according to the procedure similar to described earlier. Current 10-digit numerical access code is ceased by the system and it is not valid any more.
+

