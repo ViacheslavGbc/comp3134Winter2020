@@ -1,0 +1,12 @@
+
+
+'Ben' 
+Observations: 	everything as expected, empty output because active=0 
+		and we getting only records with active=1;
+
+'Ben'-- ' 
+Observations: 	query result not as expected. It supposed to be 
+		the same as for the previous case, but it returns other records
+
+'Ben or 1=1' 
+Observations: 	 query result is totally unexpected and outputs confidential records from db. 

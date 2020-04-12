@@ -20,7 +20,7 @@ if(isset($_POST['password']) && isset($_POST['username']) && (($_POST['username'
 ?>
 
 
-<form method="post" action="scratch.php">
+<form method="post" action="csfr.php">
     Username: <input type="text" name="username">
 
     <br><br>

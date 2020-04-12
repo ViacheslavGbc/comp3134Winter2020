@@ -1,0 +1,30 @@
+
+
+
+
+DROP DATABASE IF EXISTS COMP3134;
+
+CREATE DATABASE IF NOT EXISTS COMP3134;
+USE COMP3134;
+
+DROP TABLE IF EXISTS USERS;
+CREATE TABLE USERS 
+( 
+	id int AUTO_INCREMENT PRIMARY KEY,
+	username varchar(255),
+	email varchar(255), 
+ 
+	firstname varchar(255),
+	lastname varchar(255),
+    
+	active int(5)
+);
+
+INSERT INTO USERS (username, email, firstname, lastname, active) VALUES
+('jdoe', 'jdoe@gbc.ca', 'John', 'Doe', '1'),
+('jair', 'jair@gbc.ca', 'Jane', 'Air', '1'),
+('admin', 'admin@isp.com', 'Bill', 'Gates', '0'),
+('user', 'user@domain.ca', 'Huana', 'Banana', '1'),
+('amee', 'amee@gbc.ca', 'Ann', 'Mee', '0'),
+('bblanc', 'bblanc@gbc.ca', 'Ben', 'Blanc', '0');
+(2,1, 1001, NULL, 'What do you mean by that?', 'Did not get your idea?!','Thank you for your message. It will be answered asap!');
